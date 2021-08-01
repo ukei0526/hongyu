@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="demo1" type="text" saize="1">
+    <p id="demo2"></p>
+    <button onclick="myFunction()">結果</button>
+<script>
+    function myFunction(){
+	    var x = document.getElementById("demo1").value;
+        var y = x ++
+        var z = x*y
+        if (z <= 15) {
+            document.getElementById("demo2").innerHTML=z;
+        } else {
+            alert("fail");
+        }
+    }    
+</script>
+</body>
+</html>
